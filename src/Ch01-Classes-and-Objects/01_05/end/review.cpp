@@ -1,6 +1,6 @@
 #include "review.h"
 
-Review::Review(unsigned int r, const std::string &t, const std::string &txt)
+Review::Review(unsigned int r, const std::string &t, const std::string &txt) //Constructor
 {
   rating = r;
   title = t;

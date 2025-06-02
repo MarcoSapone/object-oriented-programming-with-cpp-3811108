@@ -6,7 +6,7 @@
 class Review
 {
 public:
-  Review(unsigned int r, const std::string &t, const std::string &txt);
+  Review(unsigned int r, const std::string &t, const std::string &txt);  //Constructor
   ~Review();
 
   void displayDetails() const;
