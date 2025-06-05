@@ -29,7 +29,7 @@ private:
                               unsigned int maxLength,
                               const std::string &fieldName) const;
 
-  mutable unsigned int accessCount = 0; // Can be modified in const methods
+  mutable unsigned int accessCount = 0; // Mutable means that accessCount variable Can be modified in const methods
   unsigned int rating;
   std::string title;
   std::string text;

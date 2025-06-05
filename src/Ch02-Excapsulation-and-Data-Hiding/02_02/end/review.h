@@ -10,8 +10,9 @@ public:
   ~Review();
 
   void displayDetails() const;
-
-  unsigned int getRating() const { return rating; }
+  //getter functions
+  // These functions allow read-only access to the private members
+  unsigned int getRating() const { return rating; }  
   std::string getTitle() const { return title; }
   std::string getText() const { return text; }
 

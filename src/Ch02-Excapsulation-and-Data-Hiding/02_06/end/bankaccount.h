@@ -14,12 +14,12 @@ public:
 
 private:
   // TODO: Add friend declaration
-
+  friend class Auditor;
   // TODO: Mark appropriate member as mutable
   
-  std::string accountNumber;
+ std::string accountNumber;
   float accountBalance;
-  unsigned int transactionCount = 0;
+  mutable unsigned int transactionCount = 0;
 };
 
 #endif

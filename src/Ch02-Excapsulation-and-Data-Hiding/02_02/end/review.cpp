@@ -37,7 +37,7 @@ void Review::setTitle(const std::string &t)
   }
 
   // Trim if exceeds maximum length
-  title = t.length() > 128 ? t.substr(0, 128) : t;
+  title = t.length() > 128 ? t.substr(0, 128) : t;  //maximum length of 128 characters
 }
 
 void Review::setText(const std::string &txt)

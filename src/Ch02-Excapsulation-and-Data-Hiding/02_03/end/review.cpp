@@ -40,7 +40,7 @@ void Review::setText(const std::string &txt)
 }
 
 std::string Review::validateAndTrim(const std::string &str,
-                                    unsigned int maxLength,
+                                   unsigned int maxLength,
                                     const std::string &fieldName) const
 {
   if (str.empty())
